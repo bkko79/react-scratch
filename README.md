@@ -12,6 +12,7 @@ Few of packages are my personal tastes, so feel free to change on your forte.
 mkdir project-name
 cd project-name
 npm init
+git init
 ```
 
 [Nodejs installation]: https://nodejs.org/en/download/
@@ -28,8 +29,8 @@ npm i react react-dom
 
 As those official documents are horrible at explaning each packages, to solely understand what each does I do recommend to check out its own npmjs document.
 
-[React npm]: https://www.npmjs.com/package/react
-[React-DOM npm]: https://www.npmjs.com/package/react-dom
+- [React npm](https://www.npmjs.com/package/react)
+- [React-DOM npm](https://www.npmjs.com/package/react-dom)
 
 ## Webpack installation
 
@@ -37,11 +38,11 @@ As those official documents are horrible at explaning each packages, to solely u
 npm i --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin css-loader
 ```
 
-[webpack]: https://webpack.js.org/
-[webpack-cli]: https://github.com/webpack/webpack-cli
-webpack-dev-server]: https://github.com/webpack/webpack-dev-server
-[html-webpack-plugin]: https://webpack.js.org/plugins/html-webpack-plugin/
-[css-loader]: https://webpack.js.org/loaders/css-loader/
+- [webpack](https://webpack.js.org/)
+- [webpack-cli](https://github.com/webpack/webpack-cli)
+- [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+- [html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+- [css-loader](https://webpack.js.org/loaders/css-loader/)
 
 ## Babel installation
 
@@ -49,10 +50,10 @@ webpack-dev-server]: https://github.com/webpack/webpack-dev-server
 npm i --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 ```
 
-[@babel/core]: https://babeljs.io/docs/en/
-[@babel/preset-env]: https://babeljs.io/docs/en/babel-preset-env
-[@babel/preset-react]: https://babeljs.io/docs/en/babel-preset-react
-[babel-loader]: https://github.com/babel/babel-loader
+- [@babel/core](https://babeljs.io/docs/en/)
+- [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env)
+- [@babel/preset-react](https://babeljs.io/docs/en/babel-preset-react)
+- [babel-loader](https://github.com/babel/babel-loader)
 
 ## Typescript installation
 
@@ -60,18 +61,18 @@ npm i --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 npm i --save-dev typescript @types/react @types/react-dom @babel/preset-typescript ts-loader
 ```
 
-[typescript]: https://www.typescriptlang.org/
-[@types/react]: https://www.npmjs.com/package/@types/react
-[@types/react-dom]: https://www.npmjs.com/package/@types/react-dom
-[@babel/preset-typescript]: https://babeljs.io/docs/en/babel-preset-typescript
-[ts-loader]: https://github.com/TypeStrong/ts-loader
+- [typescript](https://www.typescriptlang.org/)
+- [@types/react](https://www.npmjs.com/package/@types/react)
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom)
+- [@babel/preset-typescript](https://babeljs.io/docs/en/babel-preset-typescript)
+- [ts-loader](https://github.com/TypeStrong/ts-loader)
 
 ## Configurations
 
-[.babelrc](configs/.babelrc)
-[.gitignore](configs/.gitignore)
-[tsconfig.json](configs/tsconfig.json)
-[webpack.config.js](configs/webpack.config.json)
+- [.babelrc](configs/.babelrc)
+- [.gitignore](configs/.gitignore)
+- [tsconfig.json](configs/tsconfig.json)
+- [webpack.config.js](configs/webpack.config.json)
 
 Generally simple as f. Please read the documentation and customize at your taste.
 
