@@ -1,4 +1,4 @@
-# REACT FROM SCRATCH
+# React boilerplate from scratch
 
 In order to fresh-start any React project (without create-react-app nor prebuilt packages.json), I have made personal blueprint which allows me to utilize latest packages. Most of packages included won't be deprecated nor replaced easily, but in those cases, this document will be updated in a manner of time.
 
