@@ -72,7 +72,7 @@ npm i --save-dev typescript @types/react @types/react-dom @babel/preset-typescri
 - [.babelrc](configs/.babelrc)
 - [.gitignore](configs/.gitignore)
 - [tsconfig.json](configs/tsconfig.json)
-- [webpack.config.js](configs/webpack.config.json)
+- [webpack.config.js](configs/webpack.config.js)
 
 Generally simple as f. Please read the documentation and customize at your taste.
 
