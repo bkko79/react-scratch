@@ -27,7 +27,7 @@ npm i react react-dom
 - [React](https://en.reactjs.org/docs/react-api.html)
 - [React-DOM](https://en.reactjs.org/docs/react-dom.html)
 
-As those official documents are horrible at explaning each packages, to solely understand what each does I do recommend to check out its own npmjs document.
+As those official documents are horrible at explaining each packages, to solely understand what each does I do recommend to check out its own npmjs document.
 
 - [React npm](https://www.npmjs.com/package/react)
 - [React-DOM npm](https://www.npmjs.com/package/react-dom)
