@@ -1,10 +1,10 @@
 # React boilerplate from scratch
 
-In order to fresh-start any React project (without create-react-app nor prebuilt packages.json), I have made personal blueprint which allows me to utilize latest packages. Most of packages included won't be deprecated nor replaced easily, but in those cases, this document will be updated in a manner of time.
+In order to fresh-start any Typescritpty React project (without create-react-app nor prebuilt packages.json with vulnerabilities not fixed), I have made personal boilerplate which allows me to prepare latest packages. Most of packages included above won't be deprecated nor replaced easily, but in those obscure instances, this document will be updated in a manner of time.
 
-In order to abbreviate repetitive explanations over all internet, every packages mentioned on script will have its own official document link above. If you feel lost in any of those packages, I STRONGLY RECOMMEND to read at least first few pages from its own documentation.
+With intention to abbreviate repetitive and meaningless explanations over all internet communities, every packages mentioned will have its own official document link below. If you feel lost in any of those packages, I STRONGLY RECOMMEND to read at least first few pages of its own documentation.
 
-Few of packages are my personal tastes, so feel free to change on your forte.
+Few packages are my personal tastes, so feel free to change it on your forte.
 
 ## init
 
@@ -27,7 +27,7 @@ npm i react react-dom
 - [React](https://en.reactjs.org/docs/react-api.html)
 - [React-DOM](https://en.reactjs.org/docs/react-dom.html)
 
-As those official documents are horrible at explaining each packages, to solely understand what each does I do recommend to check out its own npmjs document.
+As those official documents are horrible at explaining what each packages do, to solely understand what each does I do recommend to check out its own `npmjs` document.
 
 - [React npm](https://www.npmjs.com/package/react)
 - [React-DOM npm](https://www.npmjs.com/package/react-dom)
@@ -74,11 +74,11 @@ npm i --save-dev typescript @types/react @types/react-dom @babel/preset-typescri
 - [tsconfig.json](configs/tsconfig.json)
 - [webpack.config.js](configs/webpack.config.js)
 
-Generally simple as f. Please read the documentation and customize at your taste.
+In most cases simple as f. Please read the documentation above, and customize at your will.
 
 ### Precautions
-1. ESNext will allow you to use latest features on your code therefore stick with it.
-1. Webpack configurations should assign `entry` and `HtmlWebpackPlugin.template` in order to make it run properly.
+1. ESNext will allow you to use latest features on ECMAScript at your code, therefore stick with it. (Remember that you are starting a new project.)
+1. You should assign proper `entry` and `HtmlWebpackPlugin.template` in Webpack configurations, to make it `start` and `build` properly.
 
 ## package.json configuration
 
